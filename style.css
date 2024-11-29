@@ -1,0 +1,43 @@
+ /* samsang s20 android 11 design */
+ @media screen and (min-width:300px) and (max-width:789px)  {
+ body{
+    background-color: red;  eta diye cheak korbo je
+    asolei eta responsive hoice kina}
+    .container{
+        width:96%;
+    }
+    #content .container{
+       flex-direction:column;
+        }
+    #main_content{
+            flex-basis:100%;;
+            grid-template-columns: auto ;  
+          }
+ #main_content .child_content:first-child{
+grid-column: 1/2;
+ }
+ #main_content .child_content:nth-child(11) img,
+#main_content .child_content:nth-child(4) img,
+#main_content .child_content:nth-child(5) img,
+#main_content .child_content:nth-child(7) img,
+#main_content .child_content:nth-child(16) img,
+#main_content .child_content:nth-child(9) img,
+#main_content .child_content:nth-child(8) img {
+display: block;
+}
+#main_content .child_content img,  
+#main_content .child_content:first-child{ 
+              float: none;
+               width:100%;
+               display: block;
+               margin-bottom: 10px;
+          }
+
+        #main_sideber{
+            flex-basis: 100%;
+            border-left: 0 solid rgba(1, 15, 1, 0.295);
+            padding-left: 0 ;
+            
+        } 
+
+ }
