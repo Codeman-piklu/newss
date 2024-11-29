@@ -1,8 +1,6 @@
  /* samsang s20 android 11 design */
  @media screen and (min-width:300px) and (max-width:789px)  {
- body{
-    background-color: red;  eta diye cheak korbo je
-    asolei eta responsive hoice kina}
+   
     .container{
         width:96%;
     }
